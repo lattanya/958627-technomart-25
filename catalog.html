@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Техномарт, инструменты">
+    <meta name="description" content="интернет-магазн инструментов Техномарт"> 
+    <title>HTML Academy: Техномарт</title>
+  </head>
+  <body>
+    <header class="main-heder">
+      <div class="main-heder__top">
+        <p class="main-heder__top--header">Техномарт</p>
+        <button class="main-heder__top--search">Поиск</button>
+        <p class="main-heder__top--marks">Закладки: 0</p>
+        <p class="main-heder__top--basket">Корзина: 0</p>
+        <button class="botton">Оформить заказ</button>
+      </div>
+      <div class="main-heder__wrap">
+        <p class="main-heder__wrap--text">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        <div>
+          <span class="main-heder__wrap--phone">+7 (812) 555-05-55</span>
+          <p class="main-heder__wrap--adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <div class="main-heder__wrap--personal">
+            <a href="https://htmlacademy.ru/">Войти</a>
+            <a href="https://htmlacademy.ru/">Регистрация</a>
+          </div>
+
+        </div>
+      </div>
+      <nav class="main-navigation">
+        <ul class="main-navigation--list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">Компания</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="offer.html">Спецпредложения</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
+          <li><a href="contacts.html">контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="visually-hidden">Каталог</h1>
+      <div>
+          <ul>
+              <li><a href="catalog.html">Каталог</a></li>
+              <li><a href="tools.html">Инструмент</a></li>
+              <li><a href="perforators.html">Перфораторы</a></li>
+          </ul>
+          <h2 class="visually-hidden">Страница каталога</h2>
+          <section class="perforators__conteiner">
+              <h3 class="perforators__conteiner--header">Перфораторы</h3>
+              <section class="perforators__filters">
+                  <div>
+                      <h4>Производители:</h4>
+                      <ul>
+                          <li> <input type="checkbox" id="bosh"><label for="bosh">BOSH</label></li>
+                          <li> <input type="checkbox" id="interskol"><label for="interskol">Интерскол</label></li>
+                          <li> <input type="checkbox" id="makita"><label for="makita">Makita</label></li>
+                          <li> <input type="checkbox" id="dewalt"><label for="dewalt">Dewalt</label></li>
+                          <li> <input type="checkbox" id="hitachi"><label for="hitachi">HITACHI</label></li>
+                      </ul>
+                      <h4>Питание:</h4>
+                      <ul>
+                          <li> <input type="radio" id="batery"><label for="batery">Аккумуляторные</label></li>
+                          <li> <input type="radio" id="supply"><label for="supply">Сетевые</label></li>
+                         
+                      </ul>
+                  </div> 
+              </section>
+              <section class="goods">
+                    
+                    <ul class="goods__catalog">
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_9000">Перфоратор BOSCH BFG 3000 22500 р. 15500 р.</li>
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_3000">Перфоратор BOSCH BFG 6000 30500 р. 25500 р.</li>
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_2000">Перфоратор BOSCH BFG 2000 12500 р.</li>
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_9000">Перфоратор BOSCH BFG 3000 22500 р. 15500 р.</li>
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_3000">Перфоратор BOSCH BFG 6000 30500 р. 25500 р.</li>
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_2000">Перфоратор BOSCH BFG 2000 12500 р.</li><li class="goods__catalog--item"><img src="item.png" alt="BFG_9000">Перфоратор BOSCH BFG 3000 22500 р. 15500 р.</li>
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_3000">Перфоратор BOSCH BFG 6000 30500 р. 25500 р.</li>
+                      <li class="goods__catalog--item"><img src="item.png" alt="BFG_2000">Перфоратор BOSCH BFG 2000 12500 р.</li>
+                    </ul>
+                  </section>
+
+          </section>
+      </div>
+    
+              
+   </main>
+
+    <footer class="main-footer">
+      <div class="main-footer__wrap">
+        <p class="main-footer__wrap--heder">Техномарт</p>
+        <p class="main-footer__wrap--contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
+        <ul class="main-footer__wrap--nav">
+          <li>Компания</li>
+          <li>Новости</li>
+          <li>Каталог</li>
+          <li>Доставка</li>
+          <li>Контакты</li>
+        </ul>
+
+        <ul class="main-footer__wrap--catalog">
+          <li>Материалы</li>
+          <li>Техника</li>
+          <li>Инструмент</li>
+          <li>Спецпредложения</li>
+        </ul>
+      </div>
+      <div class="main-footer__bottom">
+        <p class="main-footer__bottom--text">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+          <ul class="main-footer__bottom--sotial">
+            <li>ВКонтакте</li>
+            <li>Фейсбук</li>
+            <li>Инстаграмм</li>
+          </ul>
+          <p class="main-footer__bottom--email">Обратная связь:</p>
+          <a href="mail@htmlacademy" class="main-footer__bottom--link">mail@htmlacademy</a>
+          <p class="main-footer__bottom--developer">Разработано:</p>
+          <a href="htmlacademy.ru" class="main-footer__bottom--link">htmlacademy.ru</a>
+      </div>   
+    </footer>
+
+  </body>
+</html>

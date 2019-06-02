@@ -282,14 +282,13 @@ a {
     color: #ffffff;
 }
 
-.main-footer__link{
-    font-size: 16px;
-	line-height: 18px;	
-    color: #ffda96;
-}
-
 .main-footer__developer{
     font-size: 16px;
 	line-height: 18px;	
     color: #ffffff; 
+}
+.main-footer__link{
+    font-size: 16px;
+	line-height: 18px;	
+    color: #ffda96;
 }

@@ -30,8 +30,13 @@ a {
     font-size: 17px;
 	line-height: 18px;	
     color: #ffffff;
-    
+
     background-color: #293449;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+
 }
 
 .main-header__top button{
@@ -42,16 +47,40 @@ a {
     
     background-color: #293449;
 }
+
+.main-header__bottom{
+    display: flex;
+    box-sizing: border-box;
+    width: 940px;
+    padding-left: 53px;
+    padding-right: 0;
+}
 .main-navigation{
     font-size: 17px;
 	line-height: 17px;	
     color: #ffffff;
     
     background-color: #293449;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding-left: 52px;
+    padding-right: 56px;
+    padding-top: 22px;
+    padding-bottom: 26px;
+
 }
 
 .main-navigation__list{
     list-style: none;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 940px;
+    padding: 0;
+    margin: 0;
+    
+
 }
 .main-navigation__link{
     font-size: 17px;
@@ -61,6 +90,11 @@ a {
 
 .main-header__wrap{
     background-color: #f4f7f9;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 60px;
 }
 
 
@@ -123,6 +157,11 @@ a {
 }
 
 /* стилизация основного содержимого главной страницы */
+
+.goods__wrap{
+    display: flex;
+    box-sizing: border-box;
+}
 .goods__header{
     font-size: 30px;
 	line-height: 30px;	
@@ -137,6 +176,13 @@ a {
 }
 .goods__catalog{
     list-style: none;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+.fabricators__wrap{
+    display: flex;
+    box-sizing: border-box; 
 }
 
 .fabricators__all{
@@ -147,6 +193,9 @@ a {
 }
 .fabricators__catalog{
     list-style: none;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
 }
 
 .service{

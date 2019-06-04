@@ -90,11 +90,36 @@ a {
     color: #32425c;
 }
 
-.main-header__personal a{
 
+.main-header__enter{
     font-size: 21px;
 	line-height: 21px;	
     color: #000000;
+}
+.main-header__registration{
+    font-size: 21px;
+	line-height: 21px;	
+    color: #000000;
+}
+
+.main-header__name{
+    font-size: 21px;
+	line-height: 21px;	
+    color: #000000;
+}
+
+.main-header__oders{
+    font-size: 16px;
+	line-height: 18px;	
+    color: #32425c;
+    text-decoration: underline;
+}
+
+.main-header__kabinet{
+    font-size: 16px;
+	line-height: 18px;	
+    color: #32425c;
+    text-decoration: underline;
 }
 
 /* стилизация основного содержимого главной страницы */
@@ -228,7 +253,7 @@ a {
     border: none;
 }
 
-/* стилизация подвала главной страницы */
+/* стилизация подвала главной страницы и страницы каталога */
 
 .main-footer__wrap{
     background-color: #32425c; 
@@ -282,13 +307,100 @@ a {
     color: #ffffff;
 }
 
+.main-footer__link{
+    font-size: 16px;
+	line-height: 18px;	
+    color: #ffda96;
+}
+
 .main-footer__developer{
     font-size: 16px;
 	line-height: 18px;	
     color: #ffffff; 
 }
-.main-footer__link{
-    font-size: 16px;
+
+/* стилизация главного содержимого страницы каталога */
+
+.breadcrumbs{
+    list-style  : none;
+}
+.breadcrumbs__link{
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
 	line-height: 18px;	
-    color: #ffda96;
+    color: #000000; 
+}
+.main__header{
+    font-size: 30px;
+	line-height: 30px;	
+    color: #32425c; 
+}
+
+.main-filters__header{
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
+	line-height: 18px;	
+    color: #000000; 
+}
+.main-filtres__legend{
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+	line-height: 30px;	
+    color: #000000; 
+}
+.main-filtres__fabricators{
+    list-style  : none;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 15px;
+	line-height: 20px;	
+    color: #000000; 
+}
+
+.main-filtres__power{
+    list-style  : none;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 15px;
+	line-height: 20px;	
+    color: #000000; 
+}
+fieldset{
+    border: none;
+}
+.main-filtres__button{
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
+	line-height: 18px;	
+    color: #000000; 
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+
+}
+
+.goods__item{
+
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+	line-height: 20px;	
+    color: #000000; 
+}
+.order__text{
+    font-size: 30px;
+	line-height: 30px;	
+    color: #000000; 
+}
+.order__complete{
+    font-size: 14px;
+	line-height: 18px;	
+    color: #ffffff; 
+    background-color: #ee3643;
+    border-color: #ee3643;
+}
+.order__continue{
+    font-size: 14px;
+	line-height: 18px;	
+    color: #000000; 
+    background-color: #ffffff;
+    border-color: #ffffff;
 }

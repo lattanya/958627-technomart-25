@@ -52,8 +52,8 @@ a {
     display: flex;
     box-sizing: border-box;
     width: 940px;
-    padding-left: 53px;
-    padding-right: 0;
+    padding-left: 53px; 
+    padding-right: 53px;
 }
 .main-navigation{
     font-size: 17px;
@@ -101,7 +101,6 @@ a {
 .main-header__text
 {
     width: 196px;
-    height: 60px;
     font-family: Cuprum;
     font-size: 16px;
     font-weight: normal;
